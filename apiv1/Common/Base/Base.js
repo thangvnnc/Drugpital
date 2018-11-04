@@ -86,7 +86,7 @@ Base.isFieldsNotNull = (object, fields) => {
     for(let fieldId in fields){
         let field = fields[fieldId];
         if (object[field] === null || object[field] === undefined) {
-            return Error.ERR_FIELD_NULL(field);
+            return Error.ERR_PARAMS(field);
         }
     }
     return Error.OK(object);

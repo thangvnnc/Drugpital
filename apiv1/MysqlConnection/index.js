@@ -1,17 +1,9 @@
 const mysql = require('mysql');
 const connection = mysql.createConnection({
-    host     : 'xxxxxxxxxxx',
-    user     : 'xxxxxxxxxxx',
-    password : 'xxxxxxxxxxx',
-    database : 'xxxxxxxxxxx'
+    host     : 'localhost',
+    user     : 'medixlinkcom',
+    password : 'ecc9408da3baadfe833a5',
+    database : 'medixlink_c_bf31'
 });
-
-/*
-const connection = mysql.createConnection({
-  host     : '103.48.81.8',
-  user     : 'ujzbuikm_drugpital',
-  password : 'anhkhoa2210',
-  database : 'ujzbuikm_drugpital'
-});*/
 
 module.exports = connection;

@@ -7,7 +7,7 @@ const Log = require("../Common/Base/Log");
 
 // Route by id
 router.get("/get/byid", (req, res) => {
-    // Kiểm tra đủ điểu kiện lấy dữ liệu
+    // Kiểm tra đủ ERR_FIELD_NULL điểu kiện lấy dữ liệu
     let dataReq = req.query;
     let checkField = Base.isFieldsNotNull(dataReq, ["id"]);
     if (checkField.code !== Error.CODE_OK) {
