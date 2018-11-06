@@ -5,7 +5,6 @@ const MySqlCon = require("../MysqlConnection");
 const Base = require("../Common/Base/Base");
 const Log = require("../Common/Base/Log");
 
-
 // Route by id
 router.get("/get/byid", (req, res) => {
     // Kiểm tra đủ điểu kiện lấy dữ liệu
