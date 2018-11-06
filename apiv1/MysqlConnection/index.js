@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 const connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'medixlinkcom',
-    password : 'ecc9408da3baadfe833a5',
-    database : 'medixlink_c_bf31'
+    host     : '103.7.40.108',
+    user     : 'drugpital',
+    password : 'xxxxxxx',
+    database : 'zadmin_drug'
 });
 
 module.exports = connection;
